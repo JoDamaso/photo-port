@@ -1,23 +1,15 @@
-// import logo from './logo.svg';
+import React from 'react' // You need to import React in every component file
+import About from './components/About'
+import Nav from './components/Nav'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Edit <code>src/App.js</code> anna's titties.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Anna's tits
-        </a>
-      </header>
+    <div>
+      <Nav></Nav>
+      <main>
+        <About></About>
+      </main>
     </div>
   );
 }
