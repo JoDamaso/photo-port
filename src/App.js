@@ -2,7 +2,7 @@ import React, { useState } from 'react' // You need to import React in every com
 import About from './components/About'
 import Nav from './components/Nav'
 import Gallery from './components/Gallery'
-import PhotoList from './components/PhotoList'
+// import PhotoList from './components/PhotoList'
 import './App.css';
 
 function App() {
