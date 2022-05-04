@@ -2,6 +2,7 @@ import React, { useState } from 'react' // You need to import React in every com
 import About from './components/About'
 import Nav from './components/Nav'
 import Gallery from './components/Gallery'
+import PhotoList from './components/PhotoList'
 import './App.css';
 
 function App() {
@@ -22,7 +23,8 @@ const [currentCategory, setCurrentCategory] = useState(categories[0])
         currentCategory={currentCategory}
       ></Nav>
       <main>
-        <Gallery></Gallery>
+        <Gallery currentCategory={currentCategory}></Gallery>
+        
         <About></About>
       </main>
     </div>
